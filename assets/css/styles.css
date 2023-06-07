@@ -1,0 +1,134 @@
+/*Add your custom styles here*/
+
+body {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(50, 50, 50);
+    color: whitesmoke;
+    font-family: monospace;
+}
+
+header, footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    height: 10vh;
+    min-height: 60px;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: auto;
+}
+
+.usersTable {
+    height: fit-content;
+    width: fit-content;
+    background-color: black;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 20px;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+caption {
+    padding-bottom: 10px;
+    text-decoration: underline;
+}
+
+tr:hover {
+    background-color: rgb(0, 10, 20);
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid whitesmoke;
+}
+
+button.remove {
+    background-color: rgb(110, 0, 0);
+    color: whitesmoke;
+    border: 1px solid whitesmoke;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 3px;
+    transition: .2s ; 
+}
+
+button.remove:hover {
+    background-color: red;
+    transform: scale(1.1); 
+}
+
+.addUserForm {
+    height: fit-content;
+    width: fit-content;
+    min-width: 50vh;
+    text-align: center;
+    background-color: black;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 18px 36px 36px 36px;
+}
+
+div.addUserForm > p {
+    font-size: 1.5rem;
+}
+
+.inputAddUser {
+    background-color: rgb(50, 50, 50);
+    color: whitesmoke;
+    border: 1px solid whitesmoke;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 5px;
+}
+
+::placeholder{
+    color: whitesmoke;
+}
+
+.submitAddUser {
+    background-color: rgb(0, 50, 0);
+    color: whitesmoke;
+    border: 1px solid whitesmoke;
+    border-radius: 10px;
+    padding: 10px 25px;
+    margin: 5px;
+    transition: .2s ; 
+}
+
+.submitAddUser:hover {
+    background-color: green;
+    transform: scale(1.1); 
+}
+
+footer > p {
+    font-size: 1.1rem;
+    margin: 10px;
+}
+
+a.author {
+    text-decoration: none;
+    color: beige;
+}
+
+a.author:hover {
+    color: gold;
+    font-weight: bold;
+}
+
+a.author:active {
+    color: orange;
+}
